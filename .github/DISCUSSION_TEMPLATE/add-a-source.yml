@@ -59,7 +59,7 @@ body:
   - type: input
     id: how
     attributes:
-      label: How It Sounds
+      label: How It's Said
       description: |
         How it's said there. Any way that gets the sound across is fine:
         - **Syllables:** split the word with hyphens and put the stressed syllable in capitals, like `KEE AD-ee MUUN-dee` or `ah-SOH-kuh`.
