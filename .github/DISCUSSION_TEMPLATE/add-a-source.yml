@@ -46,7 +46,11 @@ body:
     id: how
     attributes:
       label: How It Sounds
-      description: How it's said there, in your own words.
+      description: |
+        How it's said there. Any way that gets the sound across is fine:
+        - **Syllables:** split the word with hyphens and put the stressed syllable in capitals, like `KEE AD-ee MUUN-dee` or `ah-SOH-kuh`.
+        - **Sound-alikes:** compare any tricky part to a familiar word, like "the oo of *book*" or "rhymes with *care*".
+        - **IPA:** if you know it, use it, like `/ˈkɛɹɪs/`.
       placeholder: KEE AD-ee MUUN-dee
     validations:
       required: true
