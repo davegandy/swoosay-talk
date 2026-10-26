@@ -47,7 +47,7 @@ body:
     attributes:
       label: How It Sounds
       description: How it's said there, in your own words.
-      placeholder: KEE AD-ee MUUN-dee, like "key," "add" and "moon"
+      placeholder: KEE AD-ee MUUN-dee
     validations:
       required: true
   - type: textarea
