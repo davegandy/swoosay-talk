@@ -21,6 +21,20 @@ body:
       placeholder: Ki-Adi-Mundi
     validations:
       required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of Source
+      description: Where you heard it. Only official sources count.
+      options:
+        - Film
+        - Show
+        - Game
+        - Audiobook
+        - Radio drama
+        - Official video or interview (Lucasfilm, Star Wars, or the people who made it)
+    validations:
+      required: true
   - type: input
     id: where
     attributes:
