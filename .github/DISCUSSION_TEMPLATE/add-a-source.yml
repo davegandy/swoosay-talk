@@ -1,0 +1,55 @@
+title: "Card Name: Word"
+labels: ["new source"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. Tell us where the word is said out loud, and we'll go listen. A name heard in an official recording becomes Verified on [SwooSay](https://swoosay.com).
+  - type: input
+    id: card
+    attributes:
+      label: Card
+      description: The card's name, as printed.
+      placeholder: Karis Nemik
+    validations:
+      required: true
+  - type: input
+    id: word
+    attributes:
+      label: Word
+      description: The word you heard said.
+      placeholder: Karis
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where It's Said
+      description: The show, film, game, audiobook, or interview, and the episode or chapter.
+      placeholder: Andor, Season 1, Episode 5, "The Axe Forgets"
+    validations:
+      required: true
+  - type: input
+    id: time
+    attributes:
+      label: Time
+      description: When in it the word is said.
+      placeholder: "12:41"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Optional. A link that opens at the time, if there is one (a video, for example).
+  - type: input
+    id: how
+    attributes:
+      label: How It Sounds
+      description: Optional. How it's said there, in your own words.
+      placeholder: KAIR-iss, like "care"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Optional. Anything else, like who says it.
