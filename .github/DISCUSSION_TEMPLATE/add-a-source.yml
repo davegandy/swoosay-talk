@@ -10,7 +10,7 @@ body:
     attributes:
       label: Card
       description: The card's name, as printed.
-      placeholder: Karis Nemik
+      placeholder: Ki-Adi-Mundi
     validations:
       required: true
   - type: input
@@ -18,7 +18,7 @@ body:
     attributes:
       label: Word
       description: The word you heard said.
-      placeholder: Karis
+      placeholder: Ki-Adi-Mundi
     validations:
       required: true
   - type: input
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Where It's Said
       description: The show, film, game, audiobook, or interview, and the episode or chapter.
-      placeholder: Andor, Season 1, Episode 5, "The Axe Forgets"
+      placeholder: The Clone Wars, Season 6, Episode 11, "Voices"
     validations:
       required: true
   - type: input
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Time
       description: When in it the word is said, in minutes and seconds.
-      placeholder: "12:41"
+      placeholder: "2:10"
     validations:
       required: true
   - type: input
@@ -47,7 +47,7 @@ body:
     attributes:
       label: How It Sounds
       description: How it's said there, in your own words.
-      placeholder: KAIR-iss, like "care"
+      placeholder: KEE AD-ee MUUN-dee, like "key," "add" and "moon"
     validations:
       required: true
   - type: textarea
