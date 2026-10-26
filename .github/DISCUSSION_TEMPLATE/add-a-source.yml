@@ -4,7 +4,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping. Tell us where the word is said out loud, and we'll go listen. A name heard in an official recording becomes Verified on [SwooSay](https://swoosay.com).
+        Thanks for helping. Tell us where the word is said out loud, and we'll go listen. For a correction, tell us where it's said differently. A name heard in an official recording becomes Verified on [SwooSay](https://swoosay.com).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: This Is
+      description: A source for a word we haven't verified yet, or a correction to one we have.
+      options:
+        - A source (it isn't verified yet)
+        - A correction (it's said differently than we have it)
+    validations:
+      required: true
   - type: input
     id: card
     attributes:
